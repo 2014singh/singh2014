@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+<html>
+<head>
+    <title>Services page</title>
+</head>
+<body>
+{% block content %}
+<h1 class="text-center">Available Cour</h1>
+    <table class="table table-bordered text-center text-white">
+    <thead>
+    <tr class="bg-danger">
+        <th>Courses Name</th>
+        <th>Start Date</th>
+        <th>Duration</th>
+        <th>Timing</th>
+        <th>Fee</th>
+        <th>Faculty Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="bg-warning">
+        <td>Python</td>
+        <td>12-04-2019</td>
+        <td>45 days</td>
+        <td>4pm-6pm</td>
+        <td>2000/-</td>
+        <td>Narayana Sir</td>
+    </tr>
+    <tr class="bg-warning">
+        <td>Django</td>
+        <td>12-04-2019</td>
+        <td>60 days</td>
+        <td>6pm-7.30pm</td>
+        <td>2000/-</td>
+        <td>Narayana Sir</td>
+    </tr>
+    <tr class="bg-warning">
+        <td>REST API</td>
+        <td>13-04-2019</td>
+        <td>30 days</td>
+        <td>11am-12.30pm</td>
+        <td>1000/-</td>
+        <td>Narayana Sir</td>
+    </tr>
+    <tr class="bg-warning">
+        <td>UI</td>
+        <td>14-04-2019</td>
+        <td>45 days</td>
+        <td>12.30pm-2pm</td>
+        <td>1000/-</td>
+        <td>Narayana Sir</td>
+    </tr>
+    </tbody>
+    </table>
+{% endblock %}
+</body>
+</html>
